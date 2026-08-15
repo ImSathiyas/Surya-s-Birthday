@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Surya</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Birthday Favicon -->
+    <link
+        rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         FLOATING PARTICLES
+    =========================================== -->
+
+    <div id="particles"></div>
+
+
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
+
+    <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+            <h1 class="typewriter" id="typewriter">
+                Happiest Birthday, Surya Bro ❤️
+            </h1>
+
+
+            <p class="subtitle fade-in">
+    A special day for a truly special soul who became a beautiful part of my story ❤️✨
+        </p>
+
+            <!-- Floating Hearts -->
+
+            <div class="floating-hearts">
+
+                <div class="heart heart-1">❤️</div>
+
+                <div class="heart heart-2">💖</div>
+
+                <div class="heart heart-3">💕</div>
+
+                <div class="heart heart-4">💗</div>
+
+                <div class="heart heart-5">💓</div>
+
+            </div>
+
+
+            <!-- Celebration Button -->
+
+            <button
+                class="cta-button"
+                onclick="scrollToSection('gallery')">
+
+                Start the Celebration 🎉
+
+            </button>
+
+        </div>
+
+
+        <!-- Scroll Indicator -->
+
+        <div class="scroll-indicator">
+
+            <div class="scroll-arrow"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         GALLERY SECTION
+    =========================================== -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Here's a Birthday Boy❤️
+            </h2>
+
+
+            <!-- ⭐ IMPORTANT: GALLERY GRID ⭐ -->
+
+            <div class="gallery-grid">
+
+
+                <!-- ==================================
+                     PHOTO 1
+                =================================== -->
+
+                <div
+                    class="photo-card"
+                    data-aos="fade-up"
+                    data-delay="200">
+
+                    <div class="photo-container">
+
+                        <img
+                            src="image/WhatsApp Image 2026-08-13 at 6.49.49 PM.jpeg"
+                            alt="Sweet memory">
+
+
+                        <div class="photo-overlay">
+
+                            <div class="photo-caption">
+    Keep that beautiful smile forever, because you have no idea how much happiness it brings to the people around you. ❤️
+                            </div>
+
+
+                            <button
+                                class="like-btn"
+                                onclick="toggleLike(this)">
+
+                                <span class="heart-icon">
+                                    ❤️
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================
+                     PHOTO 2
+                =================================== -->
+
+                <div
+                    class="photo-card"
+                    data-aos="fade-up"
+                    data-delay="300">
+
+                    <div class="photo-container">
+
+                        <img
+                            src="image/WhatsApp Image 2026-08-13 at 6.49.49 PM (1).jpeg"
+                            alt="Happy times">
+
+
+                        <div class="photo-overlay">
+
+                            <div class="photo-caption">
+    I just want you to always be happy. As long as I live, you’ll always be a part of my prayers, and I’ll always wish the very best for you. ❤️✨
+                            </div>
+
+
+                            <button
+                                class="like-btn"
+                                onclick="toggleLike(this)">
+
+                                <span class="heart-icon">
+                                    ❤️
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================
+                     PHOTO 3
+                =================================== -->
+
+                <div
+                    class="photo-card"
+                    data-aos="fade-up"
+                    data-delay="400">
+
+                    <div class="photo-container">
+
+                        <img
+                            src="image/WhatsApp Image 2026-08-13 at 6.49.49 PM (2).jpeg"
+                            alt="Love moment">
+
+
+                        <div class="photo-overlay">
+
+                            <div class="photo-caption">
+    I hope every chapter ahead of you is filled with happiness, peace, success, and everything your heart truly wishes for. ❤️✨
+                            </div>
+
+
+                            <button
+                                class="like-btn"
+                                onclick="toggleLike(this)">
+
+                                <span class="heart-icon">
+                                    ❤️
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================
+                     PHOTO 4
+                =================================== -->
+
+                <div
+                    class="photo-card"
+                    data-aos="fade-up"
+                    data-delay="500">
+
+                    <div class="photo-container">
+
+                        <img
+                            src="image/WhatsApp Image 2026-08-13 at 6.49.50 PM.jpeg"
+                            alt="Beautiful day">
+
+
+                        <div class="photo-overlay">
+
+                           <div class="photo-caption">
+    Time may change many things, but the place you hold in my life will always remain special. ❤️
+                            </div>
+
+
+                            <button
+                                class="like-btn"
+                                onclick="toggleLike(this)">
+
+                                <span class="heart-icon">
+                                    ❤️
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================
+                     PHOTO 5
+                =================================== -->
+
+                <div
+                    class="photo-card"
+                    data-aos="fade-up"
+                    data-delay="600">
+
+                    <div class="photo-container">
+
+                        <img
+                            src="image/WhatsApp Image 2026-08-13 at 6.49.48 PM (1).jpeg"
+                            alt="Beautiful memory">
+
+
+                        <div class="photo-overlay">
+
+                            <div class="photo-caption">
+    You may never know how much your presence has meant to me, but I’ll always be grateful for the smiles, happiness, and beautiful memories you gave me. ❤️
+                            </div>
+
+
+                            <button
+                                class="like-btn"
+                                onclick="toggleLike(this)">
+
+                                <span class="heart-icon">
+                                    ❤️
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- END GALLERY GRID -->
+
+
+        </div>
+        <!-- END CONTAINER -->
+
+    </section>
+
+
+
+    <!-- ==========================================
+         MESSAGE SECTION
+    =========================================== -->
+
+    <section
+        class="message-section"
+        id="message">
+
+        <div class="container">
+
+
+            <div class="message-card">
+
+
+                <h2 class="message-title">
+                    A Little Message For You 💌
+                </h2>
+
+
+
+                <!-- MESSAGE 1 -->
+
+                <p class="message-text fade-in-text">
+
+                    First of all, thank you for coming into my life.
+                    I know our bond has been for a very short time,
+                    but somehow, I don’t even know how or when I got
+                    so attached to you.
+
+                </p>
+
+
+
+                <!-- MESSAGE 2 -->
+
+                <p class="message-text fade-in-text">
+
+                    I’m actually a very private person. I don’t talk much,
+                    and I have a very small circle of friends.
+                    That’s why I genuinely don’t know how I became this
+                    close and comfortable with you so quickly.
+
+                </p>
+
+
+
+                <!-- MESSAGE 3 -->
+
+                <p class="message-text fade-in-text">
+
+                    Thank you so much for always making me smile and laugh.
+                    After almost six months of feeling like I wasn’t truly happy,
+                    these last two months have been different.
+                    I’ve been genuinely happy, and knowingly or unknowingly,
+                    you have been one of the reasons behind that happiness.
+
+                </p>
+
+
+
+                <!-- MESSAGE 4 -->
+
+                <p class="message-text fade-in-text">
+
+                    I really don’t know whether you like me or feel the same
+                    way about our bond, but one thing I’m sure of is that you
+                    have become one of the most special people in my life.
+
+                </p>
+
+
+
+                <!-- MESSAGE 5 -->
+
+                <p class="message-text fade-in-text">
+
+                    Whether we talk every day or go without talking for years,
+                    I know I’ll never forget you.
+                    There have been very few people in my life who stayed
+                    beside me when I was going through difficult times.
+                    And whenever someone stands by me during my hardest moments,
+                    I become the kind of person who would do anything for them.
+
+                </p>
+
+
+
+                <!-- MESSAGE 6 -->
+
+                <p class="message-text fade-in-text">
+
+                    Your presence alone has made me genuinely happy.
+
+                </p>
+
+
+
+                <!-- MESSAGE 7 -->
+
+                <p class="message-text fade-in-text">
+
+                    Thank you so much for being a part of my life. ❤️
+
+                </p>
+
+
+
+                <!-- MESSAGE 8 -->
+
+                <p class="message-text fade-in-text">
+
+                    Don’t ever feel alone.
+                    Whenever you need someone, no matter what happens,
+                    never forget that your Nanbi is always here for you. ❤️
+
+                </p>
+
+
+
+                <!-- MESSAGE 9 -->
+
+                <p class="message-text fade-in-text">
+
+                    I honestly don’t know why God brought you into my life,
+                    but I choose to believe there’s a reason behind it.
+                    Maybe after everything I’ve experienced and the way
+                    I used to think about men, you came into my life to
+                    remind me that not all men are the way I thought they were.
+
+                </p>
+
+
+
+                <!-- MESSAGE 10 -->
+
+                <p class="message-text fade-in-text">
+
+                    I know you are everyone’s favourite, and you’ve become
+                    one of my favourites too.
+                    You’re truly an inspiration to me, and I’m really grateful
+                    that I got to know someone like you.
+
+                </p>
+
+
+
+                <!-- MESSAGE 11 -->
+
+                <p class="message-text fade-in-text">
+
+                    If I ever have a child one day, I’ll definitely tell them
+                    that I want them to grow up to be like Surya Mama —
+                    kind, caring, and a good human being. ❤️
+
+                </p>
+
+
+
+                <!-- MESSAGE 12 -->
+
+                <p class="message-text fade-in-text">
+
+                    Thank you for being such a wonderful part of my life,
+                    my dear fake friend! 😂❤️
+
+                </p>
+
+
+
+                <!-- SIGNATURE -->
+
+                <p class="message-signature fade-in-text">
+
+                    Happiesttttt Birthday Ever, Surya Bro! 🎂🎉❤️
+
+                </p>
+
+
+
+                <!-- Animated Hearts -->
+
+                <div class="message-hearts">
+
+                    <span class="heart-animation">
+                        ❤️
+                    </span>
+
+                    <span class="heart-animation">
+                        💖
+                    </span>
+
+                    <span class="heart-animation">
+                        💗
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer class="footer">
+
+        <p>
+            Made with ❤️ for Surya Bro 🎂
+        </p>
+
+    </footer>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
